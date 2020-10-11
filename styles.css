@@ -1,0 +1,41 @@
+
+body {
+    background-image: url("https://i.imgur.com/dCNqqDN.jpg");
+    background-color: #1c8bd4;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  
+}
+
+div{
+    padding-left: 250px;
+    padding-top: 200px ;
+}
+h1 {
+    font-size: 20px;
+    color: white;
+}
+
+#button1 {
+    display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #5e4caf;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+#button1 :hover {background-color: #8e3e6a}
+
+.button1 :active {
+  background-color: #f10f35;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+} 
