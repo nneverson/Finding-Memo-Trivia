@@ -8,6 +8,12 @@ body {
 
   
 }
+div p{
+    color: red ;
+}
+#question1 {
+    display: none;
+}
 
 div{
     padding-left: 250px;
