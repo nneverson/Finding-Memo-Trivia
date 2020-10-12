@@ -14,11 +14,12 @@ div p{
 #question1 {
     display: none;
 }
-#score {
+span {
     display: grid;
     justify-content: flex-end;
     font-size: 30px;
-    padding-right: 250px
+    padding-right: 250px;
+    color: red;   
 }
 div{
     padding-left: 250px;
