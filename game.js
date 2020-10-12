@@ -8,5 +8,3 @@ button1.addEventListener('click', function () {
 	heading.style.display = 'none';
 	document.querySelector('#question1').style.display = 'inline-block';
 });
-
-

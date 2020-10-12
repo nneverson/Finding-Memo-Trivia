@@ -1,4 +1,4 @@
-# Finding Memo Trivia
+# Finding Nemo Trivia
 
 ## User Story
 - As a user, I will be able to play a trivia game that will entertain me with facts from finding Memo while still being educated with marine facts
