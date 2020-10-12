@@ -7,23 +7,31 @@
     <title>Finding Memo Trivia</title>
 </head>
 <body>
-    <span id="score-label" class="badge"> Score </span>
-    <span id="user-score"> 100 </span>
+    <span id="score-label" class="firstClass" > Score </span>
+    <span class="firstClass" id="user-score"> 100 </span>
     <div>
         <h1 id="heading">The Ultimate Finding Memo Trivia Game
         </h1>
-        <input id="button1" type="button" value="Start">
+        <input id="openModal" type="button" value="Instructions">
     </div>
-<div id="hiddenDiv">
+    <div id="modal">
+        <div id="modalTextbox">
+            <h1>How To Play</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, nihil soluta repellendus excepturi doloremque perferendis unde itaque libero iusto vero magni laudantium sit adipisci, ab quam reprehenderit culpa cupiditate labore.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, fugiat dolor fugit hic voluptatibus eligendi quasi cupiditate voluptas aperiam consequatur delectus ea quo doloremque tempora blanditiis esse repellendus laudantium dolorem?</p>
+            <a href="#" id="button1">Begin Game</a>
+        </div>
+    </div>
+<div>
     <p class="firstClass" id="question1"> Where does Nemo live?</p>
-    <ol>
+    <ol class="firstClass">
         <li><input type="radio" name="choice" value="In a cave">In a cave </li>
         <li><input type="radio" name="choice" value="under a rock">Sea anemones</li>
         <li><input type="radio" name="choice" value="In a sub">In a sub </li>
         <li><input type="radio" name="choice" value="Around coral">In a cave </li>
     </ol>
-    <p id="question2"> What is Bruces's motto</p>
-    <ol>
+    <p class="firstClass" id="question2"> What is Bruces's motto</p>
+    <ol class="firstClass">
         <li><input type="radio" name="choice" value="motto">You are what you eat
          </li>
         <li><input type="radio" name="choice" value="motto">Fish are friends not food</li>
@@ -31,55 +39,55 @@
         <li><input type="radio" name="choice" value="motto">Treat others with respect</li>
         <li><input type="radio" name="choice" value="motto">Dolphin’s are lame</li>
     </ol>
-    <p id="question3"> Why was Marlon the clownfish, not as affected by jellyfish stings?</p>
-    <ol>
+    <p class="firstClass" id="question3"> Why was Marlon the clownfish, not as affected by jellyfish stings?</p>
+    <ol class="firstClass" >
     <li><input type="radio" name="choice" value="sting">He’s a super powered fish</li>
     <li><input type="radio" name="choice" value="sting">The jellyfish didn’t actually sting them</li>
     <li><input type="radio" name="choice" value="sting">Mucus on Marlon, protected him</li>
     <li><input type="radio" name="choice" value="sting">Marlon has stinging abilities and other stings don’t affect him</li>
     </ol>
-    <p id="question4"> 
+    <p class="firstClass" id="question4"> 
     Sharks can breathe through their nose, true or false.</p>
-    <ol>
+    <ol class="firstClass">
     <li><input type="radio" name="choice" value="true or flase">False</li>
     <li><input type="radio" name="choice" value="true or flase">True</li>
     </ol>
-    <p id="question5">What is a group of fish called?</p>
-    <ol>
+    <p class="firstClass" id="question5">What is a group of fish called?</p>
+    <ol class="firstClass">
     <li><input type="radio" name="choice" value="group of fish"> Court</li>
     <li><input type="radio" name="choice" value="group of fish">Pods</li>
     <li><input type="radio" name="choice" value="group of fish">Pride</li>
     <li><input type="radio" name="choice" value="group of fish"> A School </li>
     </ol>
-    <p id="question6">What kind of fish carry their young in their mouth?</p>
-    <ol>
+    <p class="firstClass"id="question6">What kind of fish carry their young in their mouth?</p>
+    <ol class="firstClass">
     <li><input type="radio" name="choice" value="fish type">Mother Cichild fish</li>
     <li><input type="radio" name="choice" value="fish type">Sea horse</li>
     <li><input type="radio" name="choice" value="fish type">Sailfish</li>
     <li><input type="radio" name="choice" value="fish type">Barracuda</li>    
     </ol>
-    <p id="question7">What kind of fish is Dori?</p>
-    <ol>
+    <p class="firstClass" id="question7">What kind of fish is Dori?</p>
+    <ol class="firstClass">
     <li><input type="radio" name="choice" value="another fish type">Jumping Mullet</li>    
     <li><input type="radio" name="choice" value="another fish type">Blue Parrot Fish</li>
     <li><input type="radio" name="choice" value="another fish type">Bat Fish</li>
     <li><input type="radio" name="choice" value="another fish type">Royal Blue Tang</li>
     </ol>
-    <p id="question8">What produces the light at the end of an angler fish lure?</p>
-    <ol>
+    <p class="firstClass" id="question8">What produces the light at the end of an angler fish lure?</p>
+    <ol class="firstClass">
     <li><input type="radio" name="choice" value="the light">Bioluminescent bacteria</li>
     <li><input type="radio" name="choice" value="the light">The electrical charges in the fishs’ body</li>
     <li><input type="radio" name="choice" value="the light">Static electricity</li>
     <li><input type="radio" name="choice" value="the light">It is an organic fluorescent bulb that absorbs the light from the sun</li>
     </ol>
     
-    <p id="question9">Pelicans store food in their gular sac.</p>   
-    <ol>
+    <p class="firstClass" id="question9">Pelicans store food in their gular sac.</p>   
+    <ol class="firstClass">
     <li><input type="radio" name="choice" value="food storage">True</li>
     <li><input type="radio" name="choice" value="food storage">False</li>
     </ol>
-   <p id="question10">What do starfish eat?</p>
-   <ol>
+   <p class="firstClass" id="question10">What do starfish eat?</p>
+   <ol class="firstClass">
     <li><input type="radio" name="choice" value="food choice">Clam</li>    
     <li><input type="radio" name="choice" value="food choice"> Oysters</li>
     <li><input type="radio" name="choice" value="food choice">Snails</li>

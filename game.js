@@ -1,15 +1,25 @@
-const button1 = document.getElementById('button1');
+const oepnModal = document.getElementById('openModal');
 const heading = document.getElementById('heading');
-const div = document.getElementsid("hiddenDiv")
+const question1 = document.getElementById("question1")
+const question2 = document.getElementById("question2")
+const question3 = document.getElementById("question3")
+const question4 = document.getElementById("question4")
+const question5 = document.getElementById("question5")
+const question6 = document.getElementById("question6")
+const question7 = document.getElementById("question7")
+const question8 = document.getElementById("question8")
+const question9 = document.getElementById("question9")
+const question10 = document.getElementById("question10")
 
 let score = 100;
 const scoreDiv = document.getElementById("user-score")
 
-button1.addEventListener('click', function () {
+oepnModal.addEventListener('click', function () {
 	document.body.style.backgroundImage =
 		"url('https://i.imgur.com/EVduQKU.jpg')";
 	button1.style.display = 'none';
-	div.style.display
+	heading.style.display = 'none';
+	question1.style.display = 'show'
 	document.querySelector('#question1').style.display = 'inline-block';
 });
  
