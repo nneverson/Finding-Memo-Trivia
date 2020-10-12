@@ -1,4 +1,5 @@
 const oepnModal = document.getElementById('openModal');
+const button1 = document.getElementById('button1')
 const heading = document.getElementById('heading');
 const question1 = document.getElementById("question1")
 const question2 = document.getElementById("question2")
@@ -15,12 +16,17 @@ let score = 100;
 const scoreDiv = document.getElementById("user-score")
 
 oepnModal.addEventListener('click', function () {
-	document.body.style.backgroundImage =
+	document.querySelector('#modal').style.display = 'flex';
+});
+
+button1.addEventListener('click', function () {
+document.body.style.backgroundImage =
 		"url('https://i.imgur.com/EVduQKU.jpg')";
-	button1.style.display = 'none';
-	heading.style.display = 'none';
-	question1.style.display = 'show'
-	document.querySelector('#question1').style.display = 'inline-block';
+button1.style.display = 'none';
+heading.style.display = 'none';
+openModal.style.display = 'none';
+document.querySelector('#question1').style.display = 'flex';
+document.querySelector('#modal').style.display = 'none';
 });
  
 let rightChoices = [
@@ -36,9 +42,9 @@ let rightChoices = [
 	'All of the above',
 ];
 
-function correctAnswer (rightChoices){
+function correctAnswer (question1){
 	if (rightchoices) {
-		rightChoices[0] != 
+		rightChoices[0] != question1.vaule.in
 	} else {
 		
 	}
