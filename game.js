@@ -1,5 +1,6 @@
 const oepnModal = document.getElementById('openModal');
 const button1 = document.getElementById('button1');
+const Rank = document.getElementById('playerRank');
 const q1 = document.getElementById('q1');
 const q2 = document.getElementById('q2');
 const q3 = document.getElementById('q3');
@@ -25,7 +26,7 @@ const answers = document.querySelectorAll("[name='choice']");
 let score = 100;
 const scoreDiv = document.getElementById('user-score');
 const scorelabel = document.getElementById('score-label');
-
+const loseModal = document.getElementById('loseModal');
 oepnModal.addEventListener('click', function () {
 	document.querySelector('#modal').style.display = 'flex';
 	scorelabel.style.display = 'flex';
@@ -47,10 +48,10 @@ answers.forEach((answer) => {
 		if (selected === 'incorrect') {
 			score = score - 10;
 			scoreDiv.innerHTML = score;
-		} else {
-			console.log('answer was correct');
+		} else if (score = 0){
+			loseModal.style.display = 'flex'
 		}
-		//add code that bring up modal when points equal 0
+		
 	});
 });
 
@@ -61,52 +62,70 @@ q1.addEventListener('click', function () {
 	document.querySelector('#question2').style.display = 'flex';
 });
 
-q2.addEventListener('click', function () {
-	document.body.style.backgroundImage = "url('https://imgur.com/FahCLkm')";
+q2.addEventListener('change', function () {
+	document.body.style.backgroundImage =
+		"url('https://i.imgur.com/pKX4kqW.jpg')";
 	document.querySelector('#question2').style.display = 'none';
 	document.querySelector('#question3').style.display = 'flex';
 });
 
-q3.addEventListener('click', function () {
-	document.body.style.backgroundImage = "url('https://imgur.com/FahCLkm')";
+q3.addEventListener('change', function () {
+	document.body.style.backgroundImage =
+		"url('https://i.imgur.com/O0Bjf0l.jpg')";
+	document.body.style.backgroundPositionY = 'center';
 	document.querySelector('#question3').style.display = 'none';
 	document.querySelector('#question4').style.display = 'flex';
 });
-q4.addEventListener('click', function () {
-	document.body.style.backgroundImage = "url('https://imgur.com/FahCLkm')";
+q4.addEventListener('change', function () {
+	document.body.style.backgroundImage =
+		"url('https://i.imgur.com/dx4a4xh.jpg')";
 	document.querySelector('#question4').style.display = 'none';
 	document.querySelector('#question5').style.display = 'flex';
 });
 
-q5.addEventListener('click', function () {
-	document.body.style.backgroundImage = "url('https://imgur.com/WHbLnGk')";
+q5.addEventListener('change', function () {
+	document.body.style.backgroundImage =
+		"url('https://i.imgur.com/Olpfzhe.jpg')";
 	document.querySelector('#question5').style.display = 'none';
 	document.querySelector('#question6').style.display = 'flex';
 });
 
-q6.addEventListener('click', function () {
-	document.body.style.backgroundImage = "url('https://imgur.com/dHaE716')";
+q6.addEventListener('change', function () {
+	//dory
+	document.body.style.backgroundImage =
+		"url('https://i.imgur.com/LuJLghu.jpg')";
+	backgroundPositionY = 'bottom';
 	document.querySelector('#question6').style.display = 'none';
 	document.querySelector('#question7').style.display = 'flex';
 });
-q7.addEventListener('click', function () {
-	document.body.style.backgroundImage = "url('https://imgur.com/b45DChh')";
+q7.addEventListener('change', function () {
+	//angler
+	document.body.style.backgroundImage =
+		"url('https://i.imgur.com/K24AJbh.jpg')";
 	document.querySelector('#question7').style.display = 'none';
 	document.querySelector('#question8').style.display = 'flex';
 });
-q8.addEventListener('click', function () {
-	document.body.style.backgroundImage = "url('https://imgur.com/vetPWD8')";
+q8.addEventListener('change', function () {
+	//nigel
+	document.body.style.backgroundImage =
+		"url('https://i.imgur.com/8QVbk29.jpg')";
 	document.querySelector('#question8').style.display = 'none';
 	document.querySelector('#question9').style.display = 'flex';
 });
-q9.addEventListener('click', function () {
-	document.body.style.backgroundImage = "url('https://imgur.com/9YQOz8F')";
+q9.addEventListener('change', function () {
+	// turtles
+	document.body.style.backgroundImage =
+		"url('https://i.imgur.com/46ZUibm.jpg')";
 	document.querySelector('#question9').style.display = 'none';
 	document.querySelector('#question10').style.display = 'flex';
 });
-q10.addEventListener('click', function () {
-	document.body.style.backgroundImage = "url('https://imgur.com/FbNVYAp')";
+q10.addEventListener('change', function () {
+	// should be end page with ranks
+	document.body.style.backgroundImage =
+		"url('https://i.imgur.com/XU11etd.jpg')";
+	scorelabel.style.display = 'flex';
 	document.querySelector('#question9').style.display = 'none';
-	document.querySelector('#question10').style.display = 'flex';
-	alert('YOU WIN!');
+	document.querySelector('#question10').style.display = 'none';
+	alert('How do you rank?');
+	playerRank.style.display = 'flex'
 });

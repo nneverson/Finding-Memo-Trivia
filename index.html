@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <title>Finding Memo Trivia</title>
 </head>
@@ -31,7 +32,7 @@
             <a href="#" id="button1">Begin Game</a>
         </div>
     </div>
-    <div id="losemodal">
+    <div id="loseModal">
         <div id="modal2Textbox">
             <h1>You're a loser</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, nihil soluta repellendus excepturi
@@ -76,8 +77,8 @@
             <p>
                 Sharks can breathe through their nose, true or false.</p>
             <ol>
+                <li><input type="radio" name="choice" value="incorrect" >True</li>
                 <li><input type="radio" name="choice" value="correct" id="q4">False</li>
-                <li><input type="radio" name="choice" value="incorrect">True</li>
             </ol>
         </section>
 
@@ -85,18 +86,18 @@
             <p>What is a group of fish called?</p>
             <ol>
                 <li><input type="radio" name="choice" value="incorrect"> Court</li>
-                <li><input type="radio" name="choice" value="incorrect">Pods</li>
-                <li><input type="radio" name="choice" value="incorrect">Pride</li>
+                <li><input type="radio" name="choice" value="incorrect"> Pods</li>
+                <li><input type="radio" name="choice" value="incorrect">A Pride</li>
                 <li><input type="radio" name="choice" value="correct" id="q5"> A School </li>
             </ol>
         </section>
         <section id="question6">
-            <p>What kind of fish carry their young in their mouth?</p>
+            <p>Which of the whale species grow to be the largest?</p>
             <ol>
-                <li><input type="radio" name="choice" value="correct" id="q6">Mother Cichild fish</li>
-                <li><input type="radio" name="choice" value="incorrect">Sea horse</li>
-                <li><input type="radio" name="choice" value="incorrect">Sailfish</li>
-                <li><input type="radio" name="choice" value="incorrect">Barracuda</li>
+                <li><input type="radio" name="choice" value="correct" id="q6">Blue whale</li>
+                <li><input type="radio" name="choice" value="incorrect">Killer whale</li>
+                <li><input type="radio" name="choice" value="incorrect">humpback whale</li>
+                <li><input type="radio" name="choice" value="incorrect">Sperm whale</li>
             </ol>
         </section>
         <section id="question7">
@@ -128,13 +129,38 @@
         </section>
 
         <section id="question10">
-            <p>What do starfish eat?</p>
+            <p>What do star fish eat?</p>
             <ol>
                 <li><input type="radio" name="choice" value="incorrect">Clam</li>
                 <li><input type="radio" name="choice" value="incorrect"> Oysters</li>
                 <li><input type="radio" name="choice" value="incorrect">Snails</li>
                 <li><input type="radio" name="choice" value="correct" id="q10">All of the above</li>
             </ol>
+        </section>
+        <section id="playerRank">
+           <div>
+               p>100 pts - 80 pts</p>
+                <p class="playerRankFont">
+                 <br> Claim your bragging rights because you're now labeled as Finding Nemo's # 1 aficionado.
+                </br>
+                </p>
+            </div>
+           <div>
+               
+                <p>70 pts - 50 pts</p>
+                <p class="playerRankFont">
+                    <br> Claim your bragging rights because you're now labeled as Finding Nemo's # 1 aficionado.
+                    </br>
+                </p>
+           </div>
+            <div>
+                <p>40 pts - 0 pts</p>
+                <p class="playerRankFont">
+                    <br> Claim your bragging rights because you're now labeled as Finding Nemo's # 1 aficionado.
+                    </br>
+                </p>
+                
+            </div>
         </section>
     </div>
     <script src="game.js"></script>

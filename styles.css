@@ -1,3 +1,4 @@
+
 body {
 	background-image: url('https://i.imgur.com/dCNqqDN.jpg');
 	background-color: #1c8bd4;
@@ -6,9 +7,9 @@ body {
 	background-size: cover;
 	color: white;
 }
-div p {
+/* div p {
 	color: red;
-}
+} */
 
 span {
 	display: grid;
@@ -73,8 +74,25 @@ h1 {
 }
 
 #question1, #question2, #question3, #question4, #question5, #question6, #question7, #question8, #question9, #question10, #score-label {
-    display: none;
+	display: none;
+
 }
+
+#playerRank {
+	display: none;
+	background-color: rgba(178, 147, 192, 0.40);
+	height: 50vmin;
+    width: 75vmin;
+    padding: 1rem;
+	margin: auto;
+	overflow: auto;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+}
+.playerRankFont {
+	font-size: 13px ;
+}
+
 
 #losemodal {
     background-color: rgba(0, 0, 0, 0.65);
@@ -91,11 +109,12 @@ h1 {
 }
 
 #modal2Textbox {
-	background-color: seashell;
-	height: 50vmin;
-    width: 50vmin;
+	background-image: url('https://i.imgur.com/ulul8Zg.jpg');
+	background-repeat: no-repeat;
+	height: 1300px;
+    width: 1080px;
     padding: 1rem;
 	margin: auto;
     overflow: auto;
-    
+    display: none;
 }
