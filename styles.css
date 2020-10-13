@@ -72,6 +72,30 @@ h1 {
 	transform: translateY(4px);
 }
 
-#question1, #question2, #question3, #question4, #question5 #question5, #question7 #question8 #question9 #question10  {
+#question1, #question2, #question3, #question4, #question5, #question6, #question7, #question8, #question9, #question10, #score-label {
     display: none;
+}
+
+#losemodal {
+    background-color: rgba(0, 0, 0, 0.65);
+    align-items: center;
+    justify-content: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+	overflow: auto;
+    display: none;
+}
+
+#modal2Textbox {
+	background-color: seashell;
+	height: 50vmin;
+    width: 50vmin;
+    padding: 1rem;
+	margin: auto;
+    overflow: auto;
+    
 }
