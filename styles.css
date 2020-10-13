@@ -1,0 +1,101 @@
+body {
+	background-image: url('https://i.imgur.com/dCNqqDN.jpg');
+	background-color: #1c8bd4;
+	min-height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+}
+div p {
+	color: red;
+}
+
+span {
+	display: grid;
+	justify-content: flex-end;
+	font-size: 30px;
+	padding-right: 250px;
+	color: red;
+}
+/* .title {
+    
+} */
+h1 {
+	font-size: 20px;
+	color: white;
+}
+#modal {
+    background-color: rgba(0, 0, 0, 0.65);
+    align-items: center;
+    justify-content: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+	overflow: auto;
+    display: none;
+}
+
+#modalTextbox {
+	background-color: seashell;
+	height: 50vmin;
+    width: 50vmin;
+    padding: 1rem;
+	margin: auto;
+    overflow: auto;
+    
+}
+
+#openModal {
+	display: inline-block;
+	padding: 15px 25px;
+	font-size: 24px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	background-color: #5e4caf;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #999;
+}
+#button1 :hover {
+	background-color: #8e3e6a;
+}
+
+.button1 :active {
+	background-color: #f10f35;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+#question1, #question2, #question3, #question4, #question5, #question6, #question7, #question8, #question9, #question10, #score-label {
+    display: none;
+}
+
+#losemodal {
+    background-color: rgba(0, 0, 0, 0.65);
+    align-items: center;
+    justify-content: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+	overflow: auto;
+    display: none;
+}
+
+#modal2Textbox {
+	background-color: seashell;
+	height: 50vmin;
+    width: 50vmin;
+    padding: 1rem;
+	margin: auto;
+    overflow: auto;
+    
+}
