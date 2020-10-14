@@ -6,9 +6,6 @@ body {
 	background-size: cover;
 	color: white;
 }
-/* div p {
-	color: red;
-} */
 
 span {
 	display: grid;
@@ -40,7 +37,8 @@ h1 {
 }
 
 #modalTextbox {
-	background-color: seashell;
+	background-color: black;
+	font-family: 'Oswald', sans-serif; 
 	height: 50vmin;
 	width: 50vmin;
 	padding: 1rem;
