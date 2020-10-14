@@ -133,6 +133,11 @@ ol > li {
 	padding: 4rem;
 	margin: 4rem auto;
 	overflow: auto;
+	text-align: center;
+}
+#modal2Textbox > p {
+	font-size: 30px;
+	text-transform: uppercase;
 }
 #container {
 	display: flex;
