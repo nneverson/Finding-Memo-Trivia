@@ -2,9 +2,11 @@
 
 ## Install instructions
 
-- No need to install anything. Just click this link <a href="https://nneverson.github.io/Finding-Memo-Trivia/">to my Finding Nemo game</a>
-
-
+- Fork Repository
+- Clone Repository by copying link on the repo that say clone
+- Type git clone and paste link
+- CD into that file
+- Open file in code editior.
 
 ## User Story
 - As a user, I will be able to play a trivia game that will entertain me with facts from finding Nemo while still being educated with marine facts
