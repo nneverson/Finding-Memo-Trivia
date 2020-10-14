@@ -2,6 +2,7 @@
 
 ## Install instructions
 
+- No need to install anything. Just click this link <a href="https://nneverson.github.io/Finding-Memo-Trivia/">to my Finding Nemo game</a>
 
 
 
