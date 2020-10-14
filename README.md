@@ -40,7 +40,24 @@
  ## Gold
 
 - Player's ranks are saved and is shown on a score board.
-
 - Dory and Marlon greet you when the user first appears on the page. They rotate so they look like waving animatronics.
-
 - At the end of the game, users are given a link to embedded their rank into various social media platforms
+
+## Technology Used
+- Css
+- HTML
+- Java Script
+
+## Major Hurdles
+
+- Centering text with CSS. When "text align: center" didn't work I had to resort to using the padding and margin to move text. Often that affected the way other things on the page were arranged so I had to resort to experimenting with different alignment properties. 
+
+- Java Script. My code isn't dry but I am grateful that  was able to get things to work with the help of my teachers and the internet.
+
+- Github. I have changed the name of my project not know that it would affect the way github would track the file. The problem was resolved after a few minutes of searching google, not without some anxiety of course.
+
+## In APP shots
+
+![Begin game page](https://i.imgur.com/20FRBO9.png)
+
+![gameplay](https://i.imgur.com/w7I7IGE.png)
