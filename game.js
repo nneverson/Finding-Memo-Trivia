@@ -58,7 +58,6 @@ answers.forEach((answer) => {
 		}
 		if (score <= 0) {
 			loseModal.style.display = 'block';
-			console.log('triggered');
 		}
 	});
 });
