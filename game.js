@@ -1,4 +1,4 @@
-const oepnModal = document.getElementById('openModal');
+const openModal = document.getElementById('openModal');
 const button1 = document.getElementById('button1');
 const Rank = document.getElementById('playerRank');
 const q1 = document.getElementById('q1');
@@ -23,11 +23,17 @@ const question8 = document.getElementById('question8');
 const question9 = document.getElementById('question9');
 const question10 = document.getElementById('question10');
 const answers = document.querySelectorAll("[name='choice']");
-let score = 100;
 const scoreDiv = document.getElementById('user-score');
 const scorelabel = document.getElementById('score-label');
 const loseModal = document.getElementById('loseModal');
-oepnModal.addEventListener('click', function () {
+const reset = document.querySelectorAll('.reset > button');
+let score = 100;
+
+reset.forEach((button) =>
+	button.addEventListener('click', () => location.reload())
+);
+
+openModal.addEventListener('click', function () {
 	document.querySelector('#modal').style.display = 'flex';
 	scorelabel.style.display = 'flex';
 });
@@ -41,6 +47,7 @@ button1.addEventListener('click', function () {
 	document.querySelector('#question1').style.display = 'flex';
 	document.querySelector('#modal').style.display = 'none';
 	scorelabel.style.display = 'flex';
+	document.querySelector('.beginTitle').style.margin = 0;
 });
 answers.forEach((answer) => {
 	answer.addEventListener('click', function (event) {
@@ -48,10 +55,11 @@ answers.forEach((answer) => {
 		if (selected === 'incorrect') {
 			score = score - 10;
 			scoreDiv.innerHTML = score;
-		} else if (score = 0){
-			loseModal.style.display = 'flex'
 		}
-		
+		if (score <= 0) {
+			loseModal.style.display = 'block';
+			console.log('triggered');
+		}
 	});
 });
 
@@ -127,5 +135,5 @@ q10.addEventListener('change', function () {
 	document.querySelector('#question9').style.display = 'none';
 	document.querySelector('#question10').style.display = 'none';
 	alert('How do you rank?');
-	playerRank.style.display = 'flex'
+	playerRank.style.display = 'flex';
 });
