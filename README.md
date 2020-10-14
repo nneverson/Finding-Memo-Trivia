@@ -1,5 +1,10 @@
 # Finding Nemo Trivia
 
+## Install instructions
+
+
+
+
 ## User Story
 - As a user, I will be able to play a trivia game that will entertain me with facts from finding Nemo while still being educated with marine facts
 
@@ -61,3 +66,5 @@
 ![Begin game page](https://i.imgur.com/20FRBO9.png)
 
 ![gameplay](https://i.imgur.com/w7I7IGE.png)
+
+![end page](https://i.imgur.com/nCo5FM7.png)
